@@ -1,0 +1,39 @@
+
+body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+text-align: center;
+font-family:'cormorant', sans-serif ;
+}
+
+  
+
+.image {width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.2s ease;
+}
+
+.image:hover {
+    transform: scale(1.15);
+}
+
+.moods {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+hr{
+    width: 70%;
+    margin: 40px auto;
+    opacity: 0.3;
+}
+
+
+
+
+
+
